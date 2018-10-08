@@ -7,6 +7,28 @@
   height: 80px;
 }
 
+.App-logo.travail {
+  animation: App-logo-rotate infinite 1s linear;
+}
+
+.Work_button {
+  margin: 30px;
+}
+
+.Work_button button.repos {
+  background-color: rgb(30, 220, 248);
+  box-shadow: 5px 5px 5px rgb(18, 156, 177);
+}
+.Work_button button {
+  background-color: purple;
+  height: 50px;
+  width: 100px;
+  color : white;
+  border: none;
+  border-radius : 3px;
+  box-shadow: 5px 5px 5px rgb(83, 1, 83);
+}
+
 .App-header {
   background-color: pink;
   height: 150px;
@@ -26,3 +48,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@keyframes App-logo-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(1080deg); }
+}
+
